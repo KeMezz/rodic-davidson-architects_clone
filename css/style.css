@@ -39,6 +39,7 @@ header .logo {
   -ms-grid-column-span: 1;
   grid-column: 1 / 2;
   font-weight: 600;
+  cursor: pointer;
 }
 
 header .logo:hover {
