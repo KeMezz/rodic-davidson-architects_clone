@@ -41,6 +41,14 @@ header .logo {
   font-weight: 600;
 }
 
+header .logo:hover {
+  color: blue;
+}
+
+header .logo:hover span {
+  color: blue;
+}
+
 header .logo span {
   color: gray;
 }
@@ -64,6 +72,11 @@ header nav ul {
 header nav ul li {
   margin-right: 1.4rem;
   font-weight: 300;
+}
+
+header nav ul li:hover {
+  cursor: pointer;
+  color: blue;
 }
 
 main {
@@ -123,5 +136,10 @@ main {
   font-weight: 300;
   font-size: 0.9rem;
   padding-top: 1em;
+}
+
+.section .section___picture p:hover {
+  cursor: pointer;
+  color: blue;
 }
 /*# sourceMappingURL=style.css.map */
